@@ -1,0 +1,23 @@
+<header class="main-header">
+  <div>
+    <a
+      [routerLink]="['/']"
+      routerLinkActive="router-link-active"
+      class="main-header__brand"
+      >uHost</a
+    >
+  </div>
+  <nav class="main-nav">
+    <ul class="main-nav__items">
+      <li class="main-nav__item">
+        <a [routerLink]="['/packages']">Packages</a>
+      </li>
+      <li class="main-nav__item">
+        <a [routerLink]="['/customers']">Customers</a>
+      </li>
+      <li class="main-nav__item">
+        <a [routerLink]="['/start-hosting']">Start Hosting</a>
+      </li>
+    </ul>
+  </nav>
+</header>
