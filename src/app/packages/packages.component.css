@@ -48,6 +48,7 @@ main {
   background: #ff5454;
   padding: 8px;
   border-radius: 5px;
+  position: absolute;
 }
 
 .package__subtitle {
