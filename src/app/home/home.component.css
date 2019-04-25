@@ -1,10 +1,17 @@
 #product-overview {
-  background: url('../../assets/freedom.jpg');
+  /* background: url('../../assets/freedom.jpg'); */
+  background-image: url('../../assets/freedom.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 10% bottom 20%;
   width: 100%;
   height: 528px;
   padding: 10px;
   margin-top: 43px;
   position: relative;
+
+  background-origin: border-box;
+  background-clip: border-box;
 }
 
 #product-overview h1 {
